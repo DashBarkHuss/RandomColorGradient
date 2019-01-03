@@ -10,10 +10,13 @@ window.onload = function () {
 };
 
 function getRandomColor(){
-    function randomRGB(){
-       return Math.floor(Math.random()*256);
+    function randomHue(){
+       return Math.floor(Math.random()*361);
     };
-    return  'rgb(' + randomRGB() + ',' + randomRGB() + ',' + randomRGB(0) +')';
+    function randomLightness(){
+        return Math.floor(Math.random()*41 + 50);
+     };
+    return  'hsl(' + randomHue() + ',100%,' +  + randomLightness() +'%)';
 };
 
 function addGradient(){
