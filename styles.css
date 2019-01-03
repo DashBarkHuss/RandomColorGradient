@@ -1,4 +1,55 @@
-html,body{
+
+html, body {
+    height: 100%;
+}
+
+#wrapper{
+    position: relative;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: min-content;
+}
+
+button{
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html,body{
     height: 100%;
 }
 #wrapper{
@@ -13,4 +64,4 @@ button{
     display: block;
     /* border-radius: 20px;
     height: 20px; */
-}
+} */
